@@ -1,0 +1,171 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix ns: <https://asudara.dev/doisrg5/movie#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+## Shape 1: MovieShape
+
+ns:MovieShape
+    a sh:NodeShape ;
+    sh:targetClass ns:Movie ;
+
+    sh:property [
+        sh:path ns:movieTitle ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+
+    sh:property [
+        sh:path ns:releaseDate ;
+        sh:datatype xsd:date ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] ;
+
+    sh:property [
+        sh:path ns:budgetAmount ;
+        sh:datatype xsd:decimal ;
+        sh:minInclusive 0 ;
+    ] ;
+
+    sh:property [
+        sh:path ns:hasActor ;
+        sh:class ns:Actor ;
+        sh:minCount 1 ;
+    ] ;
+
+    sh:property [
+        sh:path ns:hasDirector ;
+        sh:class ns:Director ;
+        sh:minCount 1 ;
+    ] ;
+
+    sh:property [
+        sh:path ns:hasProducer ;
+        sh:class ns:Producer ;
+        sh:minCount 1 ;
+    ] ;
+
+    sh:property [
+        sh:path ns:belongsToGenre ;
+        sh:class ns:Genre ;
+        sh:minCount 1 ;
+    ] ;
+
+    sh:property [
+        sh:path ns:hasOriginalLanguage ;
+        sh:class ns:Language ;
+        sh:minCount 1 ;
+    ] .
+
+## Shape 2: PersonShape
+
+
+ns:PersonShape
+    a sh:NodeShape ;
+    sh:targetClass ns:Person ;
+
+    sh:property [
+        sh:path ns:personName ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+    ] ;
+
+    sh:property [
+        sh:path ns:ageValue ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 0 ;
+        sh:maxInclusive 120 ;
+    ] ;
+
+    sh:property [
+        sh:path ns:hasGender ;
+        sh:class ns:GenderCategory ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+    ] .
+
+
+## Shape 3: ActorShape
+
+
+ns:ActorShape
+    a sh:NodeShape ;
+    sh:targetClass ns:Actor ;
+
+    sh:property [
+        sh:path ns:debutedIn ;
+        sh:class ns:Movie ;
+        sh:maxCount 1 ;
+    ] .
+
+
+## Shape 4: DirectorShape
+
+
+ns:DirectorShape
+    a sh:NodeShape ;
+    sh:targetClass ns:Director ;
+
+    sh:property [
+        sh:path ns:directorialDebut ;
+        sh:class ns:Movie ;
+        sh:maxCount 1 ;
+    ] .
+
+
+## Shape 5: ProducerShape
+
+ns:ProducerShape
+    a sh:NodeShape ;
+    sh:targetClass ns:Producer ;
+
+    sh:property [
+        sh:path ns:producerDebut ;
+        sh:class ns:Movie ;
+        sh:maxCount 1 ;
+    ] .
+
+
+## SHAPE 6: ReviewShape
+
+ns:ReviewShape
+    a sh:NodeShape ;
+    sh:targetClass ns:Review ;
+
+    sh:property [
+        sh:path ns:reviewText ;
+        sh:datatype xsd:string ;
+        sh:minLength 10 ;
+        sh:maxLength 500 ;
+        sh:minCount 1 ;
+    ] .
+
+
+## Shape 7: GenreShape
+
+ns:GenreShape
+    a sh:NodeShape ;
+    sh:targetClass ns:Genre ;
+
+    sh:in (
+        ns:Drama
+        ns:Comedy
+        ns:Action
+        ns:Horror
+    ) .
+
+
+## Shape 8: LanguageShape
+
+
+ns:LanguageShape
+    a sh:NodeShape ;
+    sh:targetClass ns:Language ;
+
+    sh:property [
+        sh:path ns:languageCode ;
+        sh:datatype xsd:string ;
+        sh:pattern "^[a-z]{2}$" ;
+    ] .

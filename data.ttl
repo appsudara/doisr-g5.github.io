@@ -1,0 +1,74 @@
+@prefix ns: <https://asudara.dev/doisrg5/movie#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+########################
+#  VALID DATA
+########################
+
+ns:movie1
+    a ns:movie ;
+    ns:title "Inception" ;
+    ns:budget "160000000"^^xsd:decimal ;
+    ns:date "2010-07-16"^^xsd:date ;
+    ns:actor ns:person1 ;
+    ns:director ns:person2 .
+
+ns:person1
+    a ns:person ;
+    ns:name "Leonardo DiCaprio" ;
+    ns:age 48 ;
+    ns:gender "male" .
+
+ns:person2
+    a ns:person ;
+    ns:name "Christopher Nolan" ;
+    ns:age 53 ;
+    ns:gender "male" .
+
+
+
+########################
+#  INVALID DATA
+########################
+
+# Multiple errors
+ns:movie2
+    a ns:movie ;
+    ns:title 123 ;                          #  should be string
+    ns:budget -500 ;                        #  negative value
+    ns:date "not-a-date" ;                  #  wrong datatype
+    ns:director ns:person3 .
+    #  missing actor
+
+ns:person3
+    a ns:person ;
+    ns:name 456 ;                           #  not a string
+    ns:age -10 .                            #  negative age
+
+
+
+# Missing required fields
+ns:movie3
+    a ns:movie ;
+    ns:budget "50000000"^^xsd:decimal .
+    #  missing title
+    #  missing date
+    #  missing actor
+
+
+
+# Wrong relationships
+ns:movie4
+    a ns:movie ;
+    ns:title "Random Movie" ;
+    ns:budget "1000000"^^xsd:decimal ;
+    ns:date "2022-05-10"^^xsd:date ;
+    ns:actor "NotAPerson" .                 #  should be ns:person
+
+
+
+# Invalid person (missing name)
+ns:person4
+    a ns:person ;
+    ns:age 30 ;
+    ns:gender "female" .
