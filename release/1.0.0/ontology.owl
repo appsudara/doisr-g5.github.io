@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="https://w3id.org/movie#"
-     xml:base="https://w3id.org/movie"
+<rdf:RDF xmlns="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#"
+     xml:base="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -11,7 +11,7 @@
      xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="http://schema.org/">
-    <owl:Ontology rdf:about="https://w3id.org/movie">
+    <owl:Ontology rdf:about="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0">
         <owl:versionIRI rdf:resource="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0"/>
         <terms:abstract xml:lang="en">An movie vocabulary designed to illustrate how to publish vocabularies on the Web following the FAIR principles</terms:abstract>
         <dc:description xml:lang="en">This is an movie ontology to illustrate some of the annotations that should be included</dc:description>
@@ -21,7 +21,7 @@
         <terms:creator xml:lang="en">Maria Poveda-Villalon</terms:creator>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/2.0/"/>
         <vann:preferredNamespacePrefix xml:lang="en">exo</vann:preferredNamespacePrefix>
-        <vann:preferredNamespaceUri>https://w3id.org/movie</vann:preferredNamespaceUri>
+        <vann:preferredNamespaceUri>https://appsudara.github.io/doisr-g5.github.io/release/1.0.0</vann:preferredNamespaceUri>
         <schema:citation xml:lang="en">Cite this vocabulary as: Garijo, D. and Poveda-Villalon, M. The movie ontology 1.0.1.</schema:citation>
         <rdfs:comment xml:lang="en">An movie vocabulary designed to illustrate how to publish vocabularies on the Web following the FAIR principles. This vocabulary describes three simple classes with 3 properties and a data property.</rdfs:comment>
         <owl:backwardCompatibleWith rdf:resource="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0"/>
@@ -172,36 +172,36 @@
 
 
 
-    <!-- https://w3id.org/movie#hasMember -->
+    <!-- https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#hasMember -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/movie#hasMember">
-        <rdfs:domain rdf:resource="https://w3id.org/movie#Organization"/>
-        <rdfs:range rdf:resource="https://w3id.org/movie#Researcher"/>
+    <owl:ObjectProperty rdf:about="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#hasMember">
+        <rdfs:domain rdf:resource="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Organization"/>
+        <rdfs:range rdf:resource="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Researcher"/>
         <rdfs:comment xml:lang="en">This movie property indicates that an Organization has a Researcher as member</rdfs:comment>
         <rdfs:label xml:lang="en">has member</rdfs:label>
     </owl:ObjectProperty>
 
 
 
-    <!-- https://w3id.org/movie#hasMentor -->
+    <!-- https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#hasMentor -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/movie#hasMentor">
-        <rdfs:domain rdf:resource="https://w3id.org/movie#Student"/>
-        <rdfs:range rdf:resource="https://w3id.org/movie#Researcher"/>
+    <owl:ObjectProperty rdf:about="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#hasMentor">
+        <rdfs:domain rdf:resource="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Student"/>
+        <rdfs:range rdf:resource="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Researcher"/>
         <rdfs:comment xml:lang="en">This property links the students to the researcher who mentored them</rdfs:comment>
         <rdfs:label xml:lang="en">has mentor</rdfs:label>
     </owl:ObjectProperty>
 
 
 
-    <!-- https://w3id.org/movie#partOf -->
+    <!-- https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#partOf -->
 
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/movie#partOf">
-        <rdfs:domain rdf:resource="https://w3id.org/movie#Researcher"/>
-        <rdfs:range rdf:resource="https://w3id.org/movie#Organization"/>
+    <owl:ObjectProperty rdf:about="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#partOf">
+        <rdfs:domain rdf:resource="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Researcher"/>
+        <rdfs:range rdf:resource="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Organization"/>
         <rdfs:comment xml:lang="en">This property links instances from Researcher to Organization</rdfs:comment>
         <rdfs:label xml:lang="en">part of</rdfs:label>
     </owl:ObjectProperty>
@@ -220,11 +220,11 @@
 
 
 
-    <!-- https://w3id.org/movie#foundedIn -->
+    <!-- https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#foundedIn -->
 
 
-    <owl:DatatypeProperty rdf:about="https://w3id.org/movie#foundedIn">
-        <rdfs:domain rdf:resource="https://w3id.org/movie#Organization"/>
+    <owl:DatatypeProperty rdf:about="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#foundedIn">
+        <rdfs:domain rdf:resource="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Organization"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
         <rdfs:comment xml:lang="en">Date when an organization was founded</rdfs:comment>
         <rdfs:label xml:lang="en">founded in</rdfs:label>
@@ -244,10 +244,10 @@
 
 
 
-    <!-- https://w3id.org/movie#Organization -->
+    <!-- https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Organization -->
 
 
-    <owl:Class rdf:about="https://w3id.org/movie#Organization">
+    <owl:Class rdf:about="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Organization">
         <vann:movie xml:lang="en">University of Southern California</vann:movie>
         <rdfs:comment xml:lang="en">An organized body of people with a particular purpose, especially a business, society, association, etc.</rdfs:comment>
         <rdfs:label xml:lang="en">Organization</rdfs:label>
@@ -255,10 +255,10 @@
 
 
 
-    <!-- https://w3id.org/movie#Researcher -->
+    <!-- https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Researcher -->
 
 
-    <owl:Class rdf:about="https://w3id.org/movie#Researcher">
+    <owl:Class rdf:about="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Researcher">
         <vann:movie xml:lang="en">An movie using the Researcher class, e.g., Bob is a professor at the University of Southern California.</vann:movie>
         <vaem:rationale xml:lang="en">The reason why this concept was added to the ontology. This could reflect some agreement or use cases that may need to be reflected here. For movie: The concept Researcher was added to the ontology to represent those authors of scientific publications that belong to a public institution.</vaem:rationale>
         <rdfs:comment xml:lang="en">A definition of your class. For movie, A researcher is a person who publishes scientific papers, writes research proposals and mentors students</rdfs:comment>
@@ -267,10 +267,10 @@
 
 
 
-    <!-- https://w3id.org/movie#Student -->
+    <!-- https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Student -->
 
 
-    <owl:Class rdf:about="https://w3id.org/movie#Student">
+    <owl:Class rdf:about="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Student">
         <rdfs:comment xml:lang="en">Student is a class introduced in the version 1.0.1 of the ontology. </rdfs:comment>
         <rdfs:label xml:lang="en">Student</rdfs:label>
     </owl:Class>

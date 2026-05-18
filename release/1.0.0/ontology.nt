@@ -1,19 +1,19 @@
-<https://w3id.org/movie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://w3id.org/movie> <http://www.w3.org/2002/07/owl#versionIRI> <https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> .
-<https://w3id.org/movie> <http://purl.org/dc/terms/abstract> "An movie vocabulary designed to illustrate how to publish vocabularies on the Web following the FAIR principles"@en .
-<https://w3id.org/movie> <http://purl.org/dc/elements/1.1/description> "This is an movie ontology to illustrate some of the annotations that should be included"@en .
-<https://w3id.org/movie> <http://purl.org/dc/elements/1.1/title> "The movie ontology"@en .
-<https://w3id.org/movie> <http://purl.org/dc/terms/created> "February 5th, 2020"@en .
-<https://w3id.org/movie> <http://purl.org/dc/terms/creator> "Daniel Garijo"@en .
-<https://w3id.org/movie> <http://purl.org/dc/terms/creator> "Maria Poveda-Villalon"@en .
-<https://w3id.org/movie> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/2.0/> .
-<https://w3id.org/movie> <http://purl.org/vocab/vann/preferredNamespacePrefix> "exo"@en .
-<https://w3id.org/movie> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/movie" .
-<https://w3id.org/movie> <http://schema.org/citation> "Cite this vocabulary as: Garijo, D. and Poveda-Villalon, M. The movie ontology 1.0.1."@en .
-<https://w3id.org/movie> <http://www.w3.org/2000/01/rdf-schema#comment> "An movie vocabulary designed to illustrate how to publish vocabularies on the Web following the FAIR principles. This vocabulary describes three simple classes with 3 properties and a data property."@en .
-<https://w3id.org/movie> <http://www.w3.org/2002/07/owl#backwardCompatibleWith> <https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> .
-<https://w3id.org/movie> <http://www.w3.org/2002/07/owl#priorVersion> <https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> .
-<https://w3id.org/movie> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.1"@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://www.w3.org/2002/07/owl#versionIRI> <https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://purl.org/dc/terms/abstract> "An movie vocabulary designed to illustrate how to publish vocabularies on the Web following the FAIR principles"@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://purl.org/dc/elements/1.1/description> "This is an movie ontology to illustrate some of the annotations that should be included"@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://purl.org/dc/elements/1.1/title> "The movie ontology"@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://purl.org/dc/terms/created> "February 5th, 2020"@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://purl.org/dc/terms/creator> "Daniel Garijo"@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://purl.org/dc/terms/creator> "Maria Poveda-Villalon"@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/2.0/> .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://purl.org/vocab/vann/preferredNamespacePrefix> "exo"@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0" .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://schema.org/citation> "Cite this vocabulary as: Garijo, D. and Poveda-Villalon, M. The movie ontology 1.0.1."@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://www.w3.org/2000/01/rdf-schema#comment> "An movie vocabulary designed to illustrate how to publish vocabularies on the Web following the FAIR principles. This vocabulary describes three simple classes with 3 properties and a data property."@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://www.w3.org/2002/07/owl#backwardCompatibleWith> <https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://www.w3.org/2002/07/owl#priorVersion> <https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.1"@en .
 # 
 # 
 # #################################################################
@@ -86,26 +86,26 @@
 # #################################################################
 # 
 # 
-# https://w3id.org/movie#hasMember
-<https://w3id.org/movie#hasMember> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/movie#hasMember> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/movie#Organization> .
-<https://w3id.org/movie#hasMember> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/movie#Researcher> .
-<https://w3id.org/movie#hasMember> <http://www.w3.org/2000/01/rdf-schema#comment> "This movie property indicates that an Organization has a Researcher as member"@en .
-<https://w3id.org/movie#hasMember> <http://www.w3.org/2000/01/rdf-schema#label> "has member"@en .
+# https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#hasMember
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#hasMember> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#hasMember> <http://www.w3.org/2000/01/rdf-schema#domain> <https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Organization> .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#hasMember> <http://www.w3.org/2000/01/rdf-schema#range> <https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Researcher> .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#hasMember> <http://www.w3.org/2000/01/rdf-schema#comment> "This movie property indicates that an Organization has a Researcher as member"@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#hasMember> <http://www.w3.org/2000/01/rdf-schema#label> "has member"@en .
 # 
-# https://w3id.org/movie#hasMentor
-<https://w3id.org/movie#hasMentor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/movie#hasMentor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/movie#Student> .
-<https://w3id.org/movie#hasMentor> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/movie#Researcher> .
-<https://w3id.org/movie#hasMentor> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links the students to the researcher who mentored them"@en .
-<https://w3id.org/movie#hasMentor> <http://www.w3.org/2000/01/rdf-schema#label> "has mentor"@en .
+# https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#hasMentor
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#hasMentor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#hasMentor> <http://www.w3.org/2000/01/rdf-schema#domain> <https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Student> .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#hasMentor> <http://www.w3.org/2000/01/rdf-schema#range> <https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Researcher> .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#hasMentor> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links the students to the researcher who mentored them"@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#hasMentor> <http://www.w3.org/2000/01/rdf-schema#label> "has mentor"@en .
 # 
-# https://w3id.org/movie#partOf
-<https://w3id.org/movie#partOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://w3id.org/movie#partOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/movie#Researcher> .
-<https://w3id.org/movie#partOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/movie#Organization> .
-<https://w3id.org/movie#partOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links instances from Researcher to Organization"@en .
-<https://w3id.org/movie#partOf> <http://www.w3.org/2000/01/rdf-schema#label> "part of"@en .
+# https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#partOf
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#partOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#partOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Researcher> .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#partOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Organization> .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#partOf> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links instances from Researcher to Organization"@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#partOf> <http://www.w3.org/2000/01/rdf-schema#label> "part of"@en .
 # 
 # 
 # 
@@ -116,12 +116,12 @@
 # #################################################################
 # 
 # 
-# https://w3id.org/movie#foundedIn
-<https://w3id.org/movie#foundedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<https://w3id.org/movie#foundedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/movie#Organization> .
-<https://w3id.org/movie#foundedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
-<https://w3id.org/movie#foundedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Date when an organization was founded"@en .
-<https://w3id.org/movie#foundedIn> <http://www.w3.org/2000/01/rdf-schema#label> "founded in"@en .
+# https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#foundedIn
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#foundedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#foundedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Organization> .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#foundedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#foundedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Date when an organization was founded"@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#foundedIn> <http://www.w3.org/2000/01/rdf-schema#label> "founded in"@en .
 # 
 # 
 # 
@@ -132,22 +132,22 @@
 # #################################################################
 # 
 # 
-# https://w3id.org/movie#Organization
-<https://w3id.org/movie#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/movie#Organization> <http://purl.org/vocab/vann/movie> "University of Southern California"@en .
-<https://w3id.org/movie#Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "An organized body of people with a particular purpose, especially a business, society, association, etc."@en .
-<https://w3id.org/movie#Organization> <http://www.w3.org/2000/01/rdf-schema#label> "Organization"@en .
+# https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Organization
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Organization> <http://purl.org/vocab/vann/movie> "University of Southern California"@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "An organized body of people with a particular purpose, especially a business, society, association, etc."@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Organization> <http://www.w3.org/2000/01/rdf-schema#label> "Organization"@en .
 # 
-# https://w3id.org/movie#Researcher
-<https://w3id.org/movie#Researcher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/movie#Researcher> <http://purl.org/vocab/vann/movie> "An movie using the Researcher class, e.g., Bob is a professor at the University of Southern California."@en .
-<https://w3id.org/movie#Researcher> <http://www.linkedmodel.org/schema/vaem#rationale> "The reason why this concept was added to the ontology. This could reflect some agreement or use cases that may need to be reflected here. For movie: The concept Researcher was added to the ontology to represent those authors of scientific publications that belong to a public institution."@en .
-<https://w3id.org/movie#Researcher> <http://www.w3.org/2000/01/rdf-schema#comment> "A definition of your class. For movie, A researcher is a person who publishes scientific papers, writes research proposals and mentors students"@en .
-<https://w3id.org/movie#Researcher> <http://www.w3.org/2000/01/rdf-schema#label> "Researcher"@en .
+# https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Researcher
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Researcher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Researcher> <http://purl.org/vocab/vann/movie> "An movie using the Researcher class, e.g., Bob is a professor at the University of Southern California."@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Researcher> <http://www.linkedmodel.org/schema/vaem#rationale> "The reason why this concept was added to the ontology. This could reflect some agreement or use cases that may need to be reflected here. For movie: The concept Researcher was added to the ontology to represent those authors of scientific publications that belong to a public institution."@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Researcher> <http://www.w3.org/2000/01/rdf-schema#comment> "A definition of your class. For movie, A researcher is a person who publishes scientific papers, writes research proposals and mentors students"@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Researcher> <http://www.w3.org/2000/01/rdf-schema#label> "Researcher"@en .
 # 
-# https://w3id.org/movie#Student
-<https://w3id.org/movie#Student> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<https://w3id.org/movie#Student> <http://www.w3.org/2000/01/rdf-schema#comment> "Student is a class introduced in the version 1.0.1 of the ontology. "@en .
-<https://w3id.org/movie#Student> <http://www.w3.org/2000/01/rdf-schema#label> "Student"@en .
+# https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Student
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Student> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Student> <http://www.w3.org/2000/01/rdf-schema#comment> "Student is a class introduced in the version 1.0.1 of the ontology. "@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Student> <http://www.w3.org/2000/01/rdf-schema#label> "Student"@en .
 # 
 # Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/

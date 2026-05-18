@@ -2,11 +2,11 @@
   "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
   "header" : {
     "languages" : [ "en", "undefined" ],
-    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/movie" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0" ],
     "title" : {
       "en" : "The movie ontology"
     },
-    "iri" : "https://w3id.org/movie",
+    "iri" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0",
     "version" : "1.0.1",
     "author" : [ "Daniel Garijo", "Maria Poveda-Villalon" ],
     "description" : {
@@ -72,7 +72,7 @@
       "preferredNamespaceUri" : [ {
         "identifier" : "preferredNamespaceUri",
         "language" : "undefined",
-        "value" : "https://w3id.org/movie",
+        "value" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0",
         "type" : "label"
       } ],
       "title" : [ {
@@ -104,8 +104,8 @@
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
-    "iri" : "https://w3id.org/movie#Organization",
-    "baseIri" : "https://w3id.org/movie",
+    "iri" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Organization",
+    "baseIri" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0",
     "instances" : 0,
     "annotations" : {
       "movie" : [ {
@@ -124,8 +124,8 @@
     },
     "id" : "1"
   }, {
-    "iri" : "https://w3id.org/movie#Student",
-    "baseIri" : "https://w3id.org/movie",
+    "iri" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Student",
+    "baseIri" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0",
     "instances" : 0,
     "label" : {
       "IRI-based" : "Student",
@@ -143,8 +143,8 @@
       "IRI-based" : "date"
     }
   }, {
-    "iri" : "https://w3id.org/movie#Researcher",
-    "baseIri" : "https://w3id.org/movie",
+    "iri" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Researcher",
+    "baseIri" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0",
     "instances" : 0,
     "annotations" : {
       "rationale" : [ {
@@ -183,8 +183,8 @@
     "type" : "owl:objectProperty"
   } ],
   "propertyAttribute" : [ {
-    "iri" : "https://w3id.org/movie#foundedIn",
-    "baseIri" : "https://w3id.org/movie",
+    "iri" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#foundedIn",
+    "baseIri" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0",
     "range" : "2",
     "label" : {
       "IRI-based" : "foundedIn",
@@ -197,8 +197,8 @@
     "attributes" : [ "datatype" ],
     "id" : "0"
   }, {
-    "iri" : "https://w3id.org/movie#partOf",
-    "baseIri" : "https://w3id.org/movie",
+    "iri" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#partOf",
+    "baseIri" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0",
     "range" : "1",
     "label" : {
       "IRI-based" : "partOf",
@@ -211,8 +211,8 @@
     "attributes" : [ "object" ],
     "id" : "3"
   }, {
-    "iri" : "https://w3id.org/movie#hasMentor",
-    "baseIri" : "https://w3id.org/movie",
+    "iri" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#hasMentor",
+    "baseIri" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0",
     "range" : "4",
     "label" : {
       "IRI-based" : "hasMentor",
@@ -225,8 +225,8 @@
     "attributes" : [ "object" ],
     "id" : "6"
   }, {
-    "iri" : "https://w3id.org/movie#hasMember",
-    "baseIri" : "https://w3id.org/movie",
+    "iri" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#hasMember",
+    "baseIri" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0",
     "range" : "4",
     "label" : {
       "IRI-based" : "hasMember",

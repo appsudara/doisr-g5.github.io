@@ -44,7 +44,7 @@
   "@id" : "http://www.w3.org/2001/XMLSchema#date",
   "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
 }, {
-  "@id" : "https://w3id.org/movie",
+  "@id" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/abstract" : [ {
     "@language" : "en",
@@ -77,7 +77,7 @@
     "@value" : "exo"
   } ],
   "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
-    "@value" : "https://w3id.org/movie"
+    "@value" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0"
   } ],
   "http://schema.org/citation" : [ {
     "@language" : "en",
@@ -101,7 +101,7 @@
     "@value" : "1.0.1"
   } ]
 }, {
-  "@id" : "https://w3id.org/movie#Organization",
+  "@id" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Organization",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/vocab/vann/movie" : [ {
     "@language" : "en",
@@ -116,7 +116,7 @@
     "@value" : "Organization"
   } ]
 }, {
-  "@id" : "https://w3id.org/movie#Researcher",
+  "@id" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Researcher",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://purl.org/vocab/vann/movie" : [ {
     "@language" : "en",
@@ -135,7 +135,7 @@
     "@value" : "Researcher"
   } ]
 }, {
-  "@id" : "https://w3id.org/movie#Student",
+  "@id" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Student",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -146,14 +146,14 @@
     "@value" : "Student"
   } ]
 }, {
-  "@id" : "https://w3id.org/movie#foundedIn",
+  "@id" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#foundedIn",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "Date when an organization was founded"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/movie#Organization"
+    "@id" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Organization"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -163,54 +163,54 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
   } ]
 }, {
-  "@id" : "https://w3id.org/movie#hasMember",
+  "@id" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#hasMember",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This movie property indicates that an Organization has a Researcher as member"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/movie#Organization"
+    "@id" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Organization"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has member"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/movie#Researcher"
+    "@id" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Researcher"
   } ]
 }, {
-  "@id" : "https://w3id.org/movie#hasMentor",
+  "@id" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#hasMentor",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property links the students to the researcher who mentored them"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/movie#Student"
+    "@id" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Student"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "has mentor"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/movie#Researcher"
+    "@id" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Researcher"
   } ]
 }, {
-  "@id" : "https://w3id.org/movie#partOf",
+  "@id" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#partOf",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
     "@value" : "This property links instances from Researcher to Organization"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "https://w3id.org/movie#Researcher"
+    "@id" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Researcher"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "part of"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "https://w3id.org/movie#Organization"
+    "@id" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0#Organization"
   } ]
 } ]
