@@ -35,7 +35,7 @@ RewriteRule ^$ https://appsudara.github.io/doisr-g5.github.io/ontology.nt [R=303
 RewriteCond %{HTTP_ACCEPT} text/turtle [OR]
 RewriteCond %{HTTP_ACCEPT} text/\* [OR]
 RewriteCond %{HTTP_ACCEPT} \*/turtle
-RewriteRule ^$ https://appsudara.github.io/doisr-g5.github.io/data.ttl [R=303,L]
+RewriteRule ^$ https://appsudara.github.io/doisr-g5.github.io/ontology.ttl [R=303,L]
 
 
 # Rewrite rules for any other version.
