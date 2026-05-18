@@ -22,7 +22,7 @@
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/2.0/"/>
         <vann:preferredNamespacePrefix xml:lang="en">exo</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://appsudara.github.io/doisr-g5.github.io/release/1.0.0</vann:preferredNamespaceUri>
-        <schema:citation xml:lang="en">Cite this vocabulary as: Garijo, D. and Poveda-Villalon, M. The movie ontology 1.0.1.</schema:citation>
+        <schema:citation xml:lang="en">Cite this vocabulary as: Tania Mobasser Aslfakouri, Alfonso Sudara Padilla, Fotis Chatzifotiadis, M. The movie ontology 1.0.1.</schema:citation>
         <rdfs:comment xml:lang="en">An movie vocabulary designed to illustrate how to publish vocabularies on the Web following the FAIR principles. This vocabulary describes three simple classes with 3 properties and a data property.</rdfs:comment>
         <owl:backwardCompatibleWith rdf:resource="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0"/>
         <owl:priorVersion rdf:resource="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0"/>
