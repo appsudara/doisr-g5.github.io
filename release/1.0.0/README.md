@@ -1,5 +1,5 @@
 
-Riderect to Page HTML https://appsudara.github.io/doisr-g5.github.io/index.html
+Riderect to Page HTMLhttps://appsudara.github.io/doisr-g5.github.io/release/1.0.0/index-en.html
 Page TTL https://appsudara.github.io/doisr-g5.github.io/release/1.0.0/ontology.ttl
 
 Maintainers:
