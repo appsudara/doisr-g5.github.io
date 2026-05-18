@@ -62,15 +62,15 @@
     font-style: italic;	
 }
 
-/* Stying the examples. */
+/* Stying the movies. */
 
-.anexample:before {
-    content: "Example:";
+.anmovie:before {
+    content: "movie:";
     font-family: sans-serif;
     font-size: 1.6ex;
     font-weight: bold;
 }
-.anexample {
+.anmovie {
     margin-top: 1ex;
     margin-bottom: 1ex;
     padding-left: 1ex;
@@ -80,7 +80,7 @@
     border: 1px dashed #2f6fab;
     background-color: #f9f9f9;
 }
-.anexample table {
+.anmovie table {
     background-color: #f9f9f9;
 }
 

@@ -19,8 +19,8 @@ div.syntaxmenu {
    div.syntaxmenu { display:none; }
 }
 
-/* use tab-like headers for syntax examples */
-div.exampleheader {
+/* use tab-like headers for syntax movies */
+div.movieheader {
   font-size: 90%;
   float: left;
   background: #F9F9F9;
@@ -30,7 +30,7 @@ div.exampleheader {
   padding-top: 2px;
 }
 
-div.exampleheader span.exampleheader {
+div.movieheader span.movieheader {
   background: #F9F9F9;
   padding-top: 0px;
   padding-right: 10px;
