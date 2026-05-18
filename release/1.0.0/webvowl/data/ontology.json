@@ -8,7 +8,7 @@
     },
     "iri" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0",
     "version" : "1.0.1",
-    "author" : [ "Daniel Garijo", "Maria Poveda-Villalon" ],
+    "author" : [ "Tania Mobasser Aslfakouri,Fotis Chatzifotiadis,Alfonso Sudara Padilla ", "Alfonso Sudara Padilla " ],
     "description" : {
       "en" : "This is an movie ontology to illustrate some of the annotations that should be included"
     },
@@ -31,12 +31,12 @@
       "creator" : [ {
         "identifier" : "creator",
         "language" : "en",
-        "value" : "Daniel Garijo",
+        "value" : "Tania Mobasser Aslfakouri,Fotis Chatzifotiadis,Alfonso Sudara Padilla ",
         "type" : "label"
       }, {
         "identifier" : "creator",
         "language" : "en",
-        "value" : "Maria Poveda-Villalon",
+        "value" : "Alfonso Sudara Padilla ",
         "type" : "label"
       } ],
       "citation" : [ {

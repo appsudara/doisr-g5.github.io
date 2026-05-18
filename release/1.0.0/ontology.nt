@@ -4,8 +4,8 @@
 <https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://purl.org/dc/elements/1.1/description> "This is an movie ontology to illustrate some of the annotations that should be included"@en .
 <https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://purl.org/dc/elements/1.1/title> "The movie ontology"@en .
 <https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://purl.org/dc/terms/created> "February 5th, 2020"@en .
-<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://purl.org/dc/terms/creator> "Daniel Garijo"@en .
-<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://purl.org/dc/terms/creator> "Maria Poveda-Villalon"@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://purl.org/dc/terms/creator> "Tania Mobasser Aslfakouri,Fotis Chatzifotiadis,Alfonso Sudara Padilla "@en .
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://purl.org/dc/terms/creator> "Alfonso Sudara Padilla "@en .
 <https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://purl.org/dc/terms/license> <http://creativecommons.org/licenses/by/2.0/> .
 <https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://purl.org/vocab/vann/preferredNamespacePrefix> "exo"@en .
 <https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0" .

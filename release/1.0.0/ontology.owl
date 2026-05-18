@@ -17,8 +17,8 @@
         <dc:description xml:lang="en">This is an movie ontology to illustrate some of the annotations that should be included</dc:description>
         <dc:title xml:lang="en">The movie ontology</dc:title>
         <terms:created xml:lang="en">February 5th, 2020</terms:created>
-        <terms:creator xml:lang="en">Daniel Garijo</terms:creator>
-        <terms:creator xml:lang="en">Maria Poveda-Villalon</terms:creator>
+        <terms:creator xml:lang="en">Tania Mobasser Aslfakouri,Fotis Chatzifotiadis,Alfonso Sudara Padilla </terms:creator>
+        <terms:creator xml:lang="en">Alfonso Sudara Padilla </terms:creator>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/2.0/"/>
         <vann:preferredNamespacePrefix xml:lang="en">exo</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>https://appsudara.github.io/doisr-g5.github.io/release/1.0.0</vann:preferredNamespaceUri>

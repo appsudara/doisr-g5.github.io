@@ -11,5 +11,5 @@
 	 prov:wasRevisionOf <https://appsudara.github.io/doisr-g5.github.io/release/1.0.0>;
 	 prov:wasGeneratedAt "February 5th, 2020";
 .
-:agent0 a prov:Agent; foaf:name "Daniel Garijo".
-:agent1 a prov:Agent; foaf:name "Maria Poveda-Villalon".
+:agent0 a prov:Agent; foaf:name "Tania Mobasser Aslfakouri,Fotis Chatzifotiadis,Alfonso Sudara Padilla ".
+:agent1 a prov:Agent; foaf:name "Alfonso Sudara Padilla ".

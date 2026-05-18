@@ -64,10 +64,10 @@
   } ],
   "http://purl.org/dc/terms/creator" : [ {
     "@language" : "en",
-    "@value" : "Daniel Garijo"
+    "@value" : "Tania Mobasser Aslfakouri,Fotis Chatzifotiadis,Alfonso Sudara Padilla "
   }, {
     "@language" : "en",
-    "@value" : "Maria Poveda-Villalon"
+    "@value" : "Alfonso Sudara Padilla "
   } ],
   "http://purl.org/dc/terms/license" : [ {
     "@id" : "http://creativecommons.org/licenses/by/2.0/"
