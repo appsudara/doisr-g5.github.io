@@ -2,7 +2,7 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix : <> .
-<https://w3id.org/movie/1.0.1> a prov:Entity;
+<https://appsudara.github.io/doisr-g5.github.io/release/1.0.0> a prov:Entity;
 	 dc:title "The movie ontology";
 	 prov:wasAttributedTo :agent0;
 	 prov:wasAttributedTo :agent1;

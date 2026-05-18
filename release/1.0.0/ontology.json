@@ -94,7 +94,7 @@
     "@id" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "https://w3id.org/movie/1.0.1"
+    "@id" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@language" : "en",

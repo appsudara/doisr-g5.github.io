@@ -12,7 +12,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:schema="http://schema.org/">
     <owl:Ontology rdf:about="https://w3id.org/movie">
-        <owl:versionIRI rdf:resource="https://w3id.org/movie/1.0.1"/>
+        <owl:versionIRI rdf:resource="https://appsudara.github.io/doisr-g5.github.io/release/1.0.0"/>
         <terms:abstract xml:lang="en">An movie vocabulary designed to illustrate how to publish vocabularies on the Web following the FAIR principles</terms:abstract>
         <dc:description xml:lang="en">This is an movie ontology to illustrate some of the annotations that should be included</dc:description>
         <dc:title xml:lang="en">The movie ontology</dc:title>
