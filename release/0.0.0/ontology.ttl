@@ -1,0 +1,150 @@
+@prefix : <https://appsudara.github.io/doisr-g5.github.io/> .
+@prefix mod: <https://w3id.org/mod#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+rdf:age a owl:DatatypeProperty ;
+    rdfs:label "age" ;
+    rdfs:range xsd:integer .
+
+rdf:belongsToGenre a owl:ObjectProperty ;
+    rdfs:label "belongs to genre" ;
+    rdfs:domain :Movie ;
+    rdfs:range :Genre .
+
+rdf:birth a owl:DatatypeProperty ;
+    rdfs:label "birth" ;
+    rdfs:range xsd:date .
+
+rdf:budgetAmount a owl:DatatypeProperty ;
+    rdfs:label "budget amount" ;
+    rdfs:range xsd:decimal .
+
+rdf:collaboratedWith a owl:ObjectProperty ;
+    rdfs:label "collaborated with" ;
+    rdfs:domain :Person ;
+    rdfs:range :Person .
+
+rdf:debutedIn a owl:ObjectProperty ;
+    rdfs:label "debuted in" ;
+    rdfs:domain :Actor ;
+    rdfs:range :Movie .
+
+rdf:directorialDebut a owl:ObjectProperty ;
+    rdfs:label "directorial debut" ;
+    rdfs:domain :Director ;
+    rdfs:range :Movie .
+
+rdf:durationMinutes a owl:DatatypeProperty ;
+    rdfs:label "duration minutes" ;
+    rdfs:range xsd:integer .
+
+rdf:genderLabel a owl:NamedIndividual,
+        :GenderCategory .
+
+rdf:genreLabel a owl:NamedIndividual,
+        :Genre .
+
+rdf:hasActor a owl:ObjectProperty ;
+    rdfs:label "has actor" ;
+    rdfs:domain :Movie ;
+    rdfs:range :Actor .
+
+rdf:hasDirector a owl:ObjectProperty ;
+    rdfs:label "has director" ;
+    rdfs:domain :Movie ;
+    rdfs:range :Director .
+
+rdf:hasGender a owl:ObjectProperty ;
+    rdfs:label "has gender" ;
+    rdfs:domain :Person ;
+    rdfs:range :GenderCategory .
+
+rdf:hasOriginalLanguage a owl:ObjectProperty ;
+    rdfs:label "has original language" ;
+    rdfs:domain :Movie ;
+    rdfs:range :Language .
+
+rdf:hasProducer a owl:ObjectProperty ;
+    rdfs:label "has producer" ;
+    rdfs:domain :Movie ;
+    rdfs:range :Producer .
+
+rdf:hasReview a owl:ObjectProperty ;
+    rdfs:label "has review" ;
+    rdfs:domain :Movie ;
+    rdfs:range :Review .
+
+rdf:languageLabel a owl:NamedIndividual,
+        :Language .
+
+rdf:movieTitle a owl:DatatypeProperty ;
+    rdfs:label "movie title" .
+
+rdf:name a owl:DatatypeProperty ;
+    rdfs:label "name" ;
+    rdfs:range xsd:string .
+
+rdf:popularityScore a owl:DatatypeProperty ;
+    rdfs:label "popularity score" ;
+    rdfs:range xsd:integer .
+
+rdf:posterURL a owl:DatatypeProperty ;
+    rdfs:label "poster u r l" ;
+    rdfs:range xsd:anyURI .
+
+rdf:producerDebut a owl:ObjectProperty ;
+    rdfs:label "producer debut" ;
+    rdfs:domain :Producer ;
+    rdfs:range :Movie .
+
+rdf:releaseDate a owl:DatatypeProperty ;
+    rdfs:label "release date" ;
+    rdfs:range xsd:date .
+
+rdf:reviewText a owl:NamedIndividual,
+        :Review .
+
+rdf:summaryText a owl:DatatypeProperty ;
+    rdfs:label "summary text" ;
+    rdfs:range xsd:string .
+
+rdf:voteCount a owl:DatatypeProperty ;
+    rdfs:label "vote count" ;
+    rdfs:range xsd:integer .
+
+: a owl:Ontology ;
+    mod:createdWith <https://chowlk.linkeddata.es/> .
+
+:Actor a owl:Class ;
+    rdfs:label "Actor" ;
+    rdfs:subClassOf :Person .
+
+:Director a owl:Class ;
+    rdfs:label "Director" ;
+    rdfs:subClassOf :Person .
+
+:GenderCategory a owl:Class ;
+    rdfs:label "Gender Category" .
+
+:Genre a owl:Class ;
+    rdfs:label "Genre" .
+
+:Language a owl:Class ;
+    rdfs:label "Language" .
+
+:Producer a owl:Class ;
+    rdfs:label "Producer" ;
+    rdfs:subClassOf :Person .
+
+:Review a owl:Class ;
+    rdfs:label "Review" .
+
+:Person a owl:Class ;
+    rdfs:label "Person" .
+
+:Movie a owl:Class ;
+    rdfs:label "Movie" .
+
