@@ -8,7 +8,7 @@
 	 prov:wasAttributedTo :agent1;
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
 	 prov:specializationOf <https://w3id.org/movie>;
-	 prov:wasRevisionOf <https://w3id.org/movie/1.0.0>;
+	 prov:wasRevisionOf <https://appsudara.github.io/doisr-g5.github.io/release/1.0.0>;
 	 prov:wasGeneratedAt "February 5th, 2020";
 .
 :agent0 a prov:Agent; foaf:name "Daniel Garijo".

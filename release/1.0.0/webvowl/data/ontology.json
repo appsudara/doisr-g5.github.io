@@ -25,7 +25,7 @@
       "priorVersion" : [ {
         "identifier" : "priorVersion",
         "language" : "undefined",
-        "value" : "https://w3id.org/movie/1.0.0",
+        "value" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0",
         "type" : "iri"
       } ],
       "creator" : [ {
@@ -84,7 +84,7 @@
       "backwardCompatibleWith" : [ {
         "identifier" : "backwardCompatibleWith",
         "language" : "undefined",
-        "value" : "https://w3id.org/movie/1.0.0",
+        "value" : "https://appsudara.github.io/doisr-g5.github.io/release/1.0.0",
         "type" : "iri"
       } ]
     }
